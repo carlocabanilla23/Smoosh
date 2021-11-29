@@ -1,0 +1,226 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body{
+	background-image :url("myBackground.jpg");
+	
+}
+
+/* Header sections */
+/*Left top header*/
+#topHeaderLeft{
+	
+	background-color:white;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	width: 45%;
+	position:absolute;
+		top:0px;
+		left:1px;
+	min-height:18px;
+	
+	
+}
+/*Right top header*/
+#topHeadeRight{
+	
+	background-color:white;
+	background-color:white;
+	position:absolute;
+		top:0px;
+		right:0px;
+	text-align:right;
+	min-height:18px;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	width: 45%;
+	
+}
+/*Left bottom header*/
+#bottomHeadeLeft{
+
+	background-color:white;
+	min-height: 70px;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	width: 45%;
+	position:absolute;
+		top:18px;
+		left:1px;
+	font-size: 20px;
+	border-bottom: 3px solid black;
+}
+
+#bottomHeadeLeft img{
+	width:323px;
+	position:absolute;
+		left:0px;
+		top:-18px;
+	
+}
+
+#bottomHeadeRight{
+/*right bottom header*/
+
+background-color:white;
+		position:absolute;
+		top:38px;
+		right:0px;
+	text-align:right;
+	min-height: 70px;
+	padding-right: 5%;
+
+	
+	width: 45%;
+	border-bottom: 3px solid black;
+}
+#bottomHeadeRight ul li {
+	display:inline-block;
+	font-size: 22px;
+	padding : 5px;
+	margin:7px;
+	
+}
+#bottomHeadeRight ul li a {
+	text-decoration:none;
+	color:black;
+}
+#bottomHeadeRight ul li:hover{
+	color:green;
+	transition: .5s background;
+}
+#bottomHeadeRight ul li a:hover{
+	color:green;
+	
+}
+/*SlideShow*/
+
+#Slideshow img{
+	position:absolute;
+		left:0px;
+		right:0px;
+	min-height:555px;
+	
+	width:100%;
+	clear:both;	
+	border-bottom: 1px solid black;
+	margin-bottom:-10px;
+	
+}
+#actbtns{
+
+	width: 17%;
+	position: absolute;
+		top: 300px;
+		left: 41%;
+	padding-left:2%;
+	padding-right:1%;
+}
+#iLogin{
+	float: left;
+	padding: 5px 18px;
+	border: 1px solid black;
+	border-radius:5px;
+	background: rgba(0,0,0,.4);
+	font-size:24px;
+	margin-right:2%;
+}
+#iLogin:hover{
+	background: rgba(0,0,0,.75);
+	color:white;
+	transition: .3s ease-out;	
+}
+#iSignup{
+
+	float:left;
+	margin-left:2%;
+	padding: 5px 18px;
+	border: 1px solid black;
+	border-radius:5px;
+	background: rgba(0,0,0,.4);
+	font-size:24px;
+}
+#iSignup:hover{
+	color:white;
+	transition: 1s ease-out;	
+		background: rgba(0,0,0,.75);
+}
+#Gbox{
+	width: 60%;
+	background-color:rgba(0,0,0,.75);
+	position: absolute;
+	left: 20%;
+	top: 140px;
+	font-size:32px;
+	color:white;
+}
+#greetings{
+	text-align:center;
+}
+#loginForm .Cmdbtn{
+	font-size:20px;
+	padding:4px 5px 4px 5px;
+} 
+#SignUpForm{
+	font-size:24px;
+	margin-top:120px;
+	padding-top:30px;
+	padding-bottom:50px;
+	clear:both;
+	width: 40%;
+	position:absolute;
+		left:30%;
+		top: 40px;
+	background-color:rgba(0,0,0,.9);
+	color:white;
+	border-radius:30px;
+	
+	
+}
+#SignUpForm table td{
+	padding:5px;
+	font-size:24px;
+	
+}
+#Register{
+	margin-top:10px;
+	font-size: 24px;
+	padding:5px;
+	float:right;
+}
+#mainbody{
+	position:absolute;
+		top: 111px;
+		left:0px;
+	width:100%;
+	height:89%;
+}
+#NewAcctMsg{
+		font-size:32px;
+		background-color:rgba(0,0,0,.9);
+		color:white;	
+			width: 60%;
+		position:absolute;
+		left:20%;
+		top: 80px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+}
+#NewAcctMsg a{
+	color:white;
+}
+
+.description p{
+	padding:20px;
+	font-size:18px;
+}
+.ItemTitle{
+	color: white;
+	background: rgba(0,0,0,.75);
+	padding-bottom:20px;
+}

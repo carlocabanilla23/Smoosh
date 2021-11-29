@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<link href="../index.css" type="text/css" rel="stylesheet" />
+		<script src="index.js"></script>
+		<script src="signup.js"></script>
+	
+	</head>
+
+	<body>
+	<div id="header">
+			<div id="topHeaderLeft"></div>
+			<div id="topHeadeRight"><p></p></div>
+			<div id="bottomHeadeLeft"><img src="../teemo.png" width="323px"/></div>
+			<div id="bottomHeadeRight">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../portfolio.html">Portfolio</a></li>
+					<li><a href="../about.html">About Us</a></li>
+	
+				</ul>
+	</div>		
+			</div>
+	<div id="mainbody">
+		<img id="slide" name="slide"  width="100%" src="../Logged/pictures/vectors/1.jpg" />
+			<center>
+			
+			<form id="SignUpForm" action="signSuccess.html" onsubmit="return ValidateSignUp()" method="post">
+				<h1>SIGN UP</h1>
+				<center><h3 id="error"></h3></center><br/>
+	<table>
+			<tr>
+				<td><label class="label">First Name</label></td>
+				<td><input id="Fname" type="text" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				<td><label class="label">Last Name</label></td>
+				<td><input id="Lname" type="text" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				<td><label class="label">UserName</label></td>
+				<td><input id="Uname" type="text" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				<td><label class="label">Password</label></td>
+				<td><input id="pass1" type="password" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				<td><label class="label">Retype Password </label></td>
+				<td><input id="pass2" type="password" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				<td><label class="label">Email</label></td>
+				<td><input id="email1" type="text" class="SignUptextbox" /></td>
+			</tr>
+			<tr>
+				
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+				<input id="Register" type="submit" value="Register ">
+				</td>
+			</tr>
+	
+			
+			
+			
+	</table>
+	</form>
+				
+		
+			</center>
+			</div>
+	
+	</body>
+</html>

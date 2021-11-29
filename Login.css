@@ -1,0 +1,16 @@
+#loginForm{
+	position:absolute;
+		left:30%;
+	background-color: rgba(0,0,0,.9);
+	width:40%;
+	padding:3px;
+	margin-top:160px;
+	clear:both;
+	color:white;
+	font-size: 20px;
+	border-radius: 30px;
+}
+
+#loginForm h1{
+	font-size:46px;
+}

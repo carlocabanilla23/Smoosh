@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href="Login.css" type="text/css" rel="stylesheet" />
+		<link href="index.css" type="text/css" rel="stylesheet" />
+		<script src="Login.js"></script>
+		<script src="index.js"></script>
+		
+	</head>
+
+	<body onload="LoginSetup">
+			<div id="topHeaderLeft"></div>
+			<div id="topHeadeRight"><p></p></div>
+			<div id="bottomHeadeLeft"><img src="teemo.png" width="323px"/></div>
+			<div id="bottomHeadeRight">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="about.html">About Us</a></li>
+	
+				</ul>
+			
+			</div>
+		<div id="mainbody">
+			<div id="Slideshow">
+			<img id="slide" name="slide"  height="870px" src="Logged/pictures/vectors/1.jpg" />
+			
+		
+		<br/>
+		<center>
+		<div id="loginForm">
+		<br/>
+		<h1>Login</h1>
+		<p id="incorrectId"></p>
+		<br/>
+		<br/>
+		<table>
+			<tr>
+				<td><label class="label">Username:</label></td>
+				<td><input id="UsernameTxtbox" type="text" class="Logtextbox"></input></td>
+			</tr>
+			<tr>
+				<td><label class="label">Password:</label></td>
+				<td><input id="PasswordTxtbox" type="password" class="Logtextbox"></input></td>
+			</tr>
+			<tr>
+				<td><label class="label"></label></td>
+				<td>
+				<br/>
+				<input id="LoginBtn" type="submit" class="Cmdbtn" value="Login" OnClick="Login();">
+				<input id="LoginBtn" type="submit" class="Cmdbtn" value="Signup" OnClick="signUp();">
+				</td>
+			</tr>
+		</table>
+		
+		<br />
+		
+		<br/>
+		</div>
+	</center>
+				
+			</div>
+			</div>	
+		</div>
+	
+	</body>
+</html>

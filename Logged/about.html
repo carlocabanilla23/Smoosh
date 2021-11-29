@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href="../index.css" type="text/css" rel="stylesheet" />
+		<link href="about.css" type="text/css" rel="stylesheet" />
+		<script src="Logged.js"></script>
+		<script src="jquery-2.2.1.js"></script>
+		<script src="Aboutjquery.js"></script>
+		<script src="../ctcval.js"></script>
+	
+		
+	</head>
+
+	<body>
+			<div id="topHeaderLeft"></div>
+			<div id="topHeadeRight"><p>Hello <a id="UserLog"></a>  <a href="../index.html">,Logout</a></p></div>
+			<div id="bottomHeadeLeft"><img src="teemo.png" width="323px"/></div>
+			<div id="bottomHeadeRight">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="#">About Us</a></li>
+				
+				
+				</ul>
+			
+			</div>
+		<div id="mainbody">
+				<h1 id="mission">Mission</h1>
+			<h1 id="creator">Creator</h1>
+			<h1 id="contact">Contact</h1>
+			
+			<div id="missionDiv">
+				
+				<div id="Mission"><h1>
+					Smoosh is a project website specialising in Web/UI Design, Graphic Design, Branding, Illustration & Photography. 
+				
+				
+				</h1></div>
+			
+			</div>
+			
+			<div id="creatorDiv">
+					<div id="creatorInnerBox">
+					<div id="dp">
+					<img src="../dp.jpg" width="150px" height="150px">
+					</div>
+					<br/>
+					<div id="info">
+					<p>John Carlo Cabanilla</p>
+					<p>SpeedCuber</p>
+					<p>Puzzle Cube Collector</p>
+					<p>Student</p>
+					<p>Computer Science</p>
+					<p>Highline Community College</p>
+					<p>Seattle Washington, USA</p>
+					</div>
+					<br/>
+				
+					<br/>
+					</div>
+			</div>
+			<div id="contactDiv">
+				 <div id="formstyle" style="font-family: 'Indie Flower', cursive; text-align:center;">	
+				 <center><h2 id="error"></h2></h2><br/>
+				 <form id="cForm" action="MsgSent.html" onsubmit="return contact()" method="post">
+					
+
+					<span class="forhov">Full Name</span>  <br/>
+					<input  id="posName" style="WIDTH: 350px;height: 35px;" size="25"   name="posName" />
+					<br/>
+					<span class="forhov">Email</span>  <br/>
+					<input  id="posEmail" style="WIDTH: 350px;height: 35px;"  size="25" name="posEmail" />
+					<br/>
+					<span class="forhov">Telephone</span>  <br/>
+					<input  id="posRegard" style="WIDTH: 350px;height: 35px;" size="25" name="posRegard" />
+					<br/>
+					<span class="forhov">Message</span>  <br/>
+					<textarea id="posText" style="WIDTH: 350px;height: 120px;" name="posText" rows="5"></textarea>
+				  </p></br>
+				  <p>
+					<label>
+					  <input  id="sendContactEmail" type="submit" value="Send Email " name="sendContactEmail" style="width: 200px; height: 50px;background-color: #dbdbdb;border-radius: 20px;"/>
+					</label>
+				  </p><br/><br/>
+								
+					</form>
+								</div>
+			
+		</div>
+	
+	</body>
+</html>
